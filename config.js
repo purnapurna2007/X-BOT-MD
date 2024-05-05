@@ -7,7 +7,7 @@ const chalk = require('chalk')
 // SESSION ID CONECTING 👇🏻
 //-------------------------
 module.exports = {
-SESSION_ID: '', //Put your session id here
+SESSION_ID: 'X-BOT-MD:VehiclesGooder', //Put your session id here
 ALIVE: `HELLO I AM ALIVE`
 }
 /*
@@ -20,7 +20,7 @@ ALIVE: `HELLO I AM ALIVE`
 // Only use true/false
 //---------------------------------
 global.autoTyping = false //Auto typing...(true for on, false for off)
-global.autoRecord = false // Auto recording...(true for on, false for off)
+global.autoRecord = true // Auto recording...(true for on, false for off)
 global.autoread = false // Auto Message read(true for on, false for off)
 global.alwaysonline = true // Always Online(true for on, false for off)
 global.statusread = true // Auto status read 🗿🖐🏻(true for on, false for off)
@@ -32,7 +32,7 @@ global.version = "1.5.0"
 //---------------------------------
 // Required variables
 //---------------------------------
-global.prefix = "." // use "" for removing prefix
+global.prefix = "," // use "" for removing prefix
 global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
 global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
 global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
